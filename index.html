@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Hui Li — Architect of Intelligent Systems</title>
+<title>Architect of Intelligent Systems</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
@@ -164,7 +164,7 @@ footer{border-top:1px solid var(--border);padding:28px 48px;display:flex;justify
 <div id="cur-ring"></div>
 
 <nav>
-  <span class="nav-logo">HL</span>
+  <span class="nav-logo">◈</span>
   <div class="nav-links">
     <a href="#nsgr">Research</a>
     <a href="#expertise">Expertise</a>
@@ -178,7 +178,7 @@ footer{border-top:1px solid var(--border);padding:28px 48px;display:flex;justify
   <canvas id="hero-canvas"></canvas>
   <div class="hero-inner">
     <div class="hero-eye">Engineer · Architect · Builder</div>
-    <h1 class="hero-name" data-text="Hui Li">Hui Li</h1>
+    <h1 class="hero-name" data-text="&nbsp;">&nbsp;</h1>
     <div class="hero-tw"><span id="tw"></span><span class="tw-blink">|</span></div>
     <div class="hero-cta">
       <a href="#work" class="btn-p">View Work</a>
@@ -262,7 +262,7 @@ footer{border-top:1px solid var(--border);padding:28px 48px;display:flex;justify
   <div class="work-grid">
     <div class="proj-card reveal">
       <div class="proj-tag">AI Platform · 2023–Present</div>
-      <div class="proj-title">Ybex Intelligence Platform</div>
+      <div class="proj-title">Intelligence Platform</div>
       <p class="proj-desc">Real-time AI-powered analytics platform processing millions of signals per second. Custom GNN inference engine with sub-5ms p99 latency. NSGR for live knowledge consolidation.</p>
       <div class="proj-pills"><span class="ppill">Rust</span><span class="ppill">PyTorch</span><span class="ppill">Kafka</span><span class="ppill">ClickHouse</span><span class="ppill">Kubernetes</span></div>
     </div>
@@ -280,7 +280,7 @@ footer{border-top:1px solid var(--border);padding:28px 48px;display:flex;justify
     </div>
     <div class="proj-card reveal">
       <div class="proj-tag">Observability · 2020</div>
-      <div class="proj-title">Cassandra Anomaly Engine</div>
+      <div class="proj-title">Anomaly Detection Engine</div>
       <p class="proj-desc">Real-time anomaly detection at billion-event scale using streaming ML. Adaptive thresholding with causal graph inference. MTTD reduced from 45 min to under 90 s.</p>
       <div class="proj-pills"><span class="ppill">Python</span><span class="ppill">Spark</span><span class="ppill">Kafka</span><span class="ppill">PostgreSQL</span><span class="ppill">AWS</span></div>
     </div>
@@ -302,13 +302,13 @@ footer{border-top:1px solid var(--border);padding:28px 48px;display:flex;justify
   <div class="sec-label">Let's build something</div>
   <h2 class="sec-title">Ready when you are.</h2>
   <p class="sec-desc" style="margin:0 auto 48px;text-align:center">Available for ambitious projects, co-founding opportunities, and conversations about the frontier.</p>
-  <a href="mailto:hui@ybex.io" class="contact-mail">hui@ybex.io</a>
+  <a href="#" class="contact-mail">Get in Touch</a>
 </section>
 
 <footer>
-  <span class="ft">© 2026 Hui Li. All rights reserved.</span>
+  <span class="ft">© 2026. All rights reserved.</span>
   <div class="ft-links">
-    <a href="#">GitHub</a><a href="#">LinkedIn</a><a href="#">Twitter</a>
+    <a href="#">GitHub</a>
   </div>
 </footer>
 
@@ -433,7 +433,7 @@ document.addEventListener('mouseup', () => {
 // TYPEWRITER
 // ─────────────────────────────────────────
 (function initTw(){
-  const phrases=['Architect of Intelligent Systems','Distributed Systems Engineer','Graph Intelligence Researcher','NSGR Network Designer','ybex Co-Founder & CTO'];
+  const phrases=['Architect of Intelligent Systems','Distributed Systems Engineer','Graph Intelligence Researcher','NSGR Network Designer'];
   const el=document.getElementById('tw');
   let pi=0,ci=0,del=false;
   function step(){
